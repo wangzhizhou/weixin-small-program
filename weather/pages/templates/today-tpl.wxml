@@ -1,0 +1,9 @@
+<template name="today-tpl">
+    <view class="today">
+        <view class="city">{{city}}</view>
+        <view class="date">{{curWd.date}} {{week}}</view>
+        <view class="temp">{{curWd.low}}/{{curWd.high}}℃</view>
+        <view class="weather">{{curWd.text_day}} </view>
+        <view class="wd">风向:{{curWd.wind_direction}} 风速:{{curWd.wind_speed}}km/h 风力:{{curWd.wind_scale}}级</view>
+    </view>
+</template>

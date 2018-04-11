@@ -1,0 +1,96 @@
+page {
+  height: 100%;
+}
+
+.main-container-hidden {
+  opacity: 0;
+  overflow: hidden;
+  height: 100vh;
+  background: url('http://f2.dn.anqu.com/down/NTQ2Zg==/allimg/1309/54-13091P94133.jpg');  
+  background-color: #000000;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding-top: 10rpx;
+}
+
+.main-container-show {
+  opacity: 1;
+}
+
+.today {
+  border: 1px white solid;
+  width: 90%;
+  margin-left: 5%;
+  padding: 10rpx 0rpx;
+  border-radius: 10rpx;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.city, .date {
+  color: white;
+  font-weight: bold;
+}
+
+.temp {
+  font-size: 120rpx;
+  padding: 20rpx;
+}
+
+.weather {
+  color: white;
+  font-weight: bold;
+  font-size: 46rpx;
+  margin-bottom: 10rpx;
+} 
+.wd {
+  color: white;
+  font-weight: bold;
+}
+.index-title{
+  margin-top: 50rpx;
+  width: 100%;
+}
+
+.index-content {
+  text-align: left;
+  padding: 40rpx 10rpx;
+  width: 100%;
+}
+
+.index-content view {
+  font-size: 26rpx;
+  line-height: 40rpx;
+  color: #eee;
+}
+
+.index-name {
+  padding-top: 10rpx;
+  width: 42%;
+  margin-left: 5%;
+  float: left;
+}
+
+.forecast-title {
+  padding-top: 180rpx;
+}
+
+.forecast {
+  width: 100%;
+  float: left;
+  margin-top: 40rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.forecast-item {
+  width: 45.5%;
+  margin-left: 2.5%;
+  border: 1px white solid;
+  border-radius: 5px;
+}
+
+.forecast-item view {
+  font-size: 26rpx;
+  line-height: 50rpx;
+}

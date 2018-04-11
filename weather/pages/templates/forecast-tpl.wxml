@@ -1,0 +1,7 @@
+<template name="forecast-tpl">
+  <view class="forecast-item">
+    <view>{{item.date}} {{}}</view>
+    <view>{{item.text_day}}</view>
+    <view>{{item.low}}/{{item.high}}℃</view>
+  </view>
+</template>

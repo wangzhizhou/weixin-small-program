@@ -1,0 +1,3 @@
+<template name="index-tpl">
+    <view class="index-name">{{item.name}}：{{item.sug.brief}}</view>
+</template>
