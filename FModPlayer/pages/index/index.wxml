@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="directory">
+  </view>
+  <view class="report">
+  total: {{musics[1].directories}} directories, {{musics[1].files}} files.
+  </view>
+</view>
